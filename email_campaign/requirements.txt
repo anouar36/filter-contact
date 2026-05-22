@@ -1,0 +1,23 @@
+# Email Campaign Tool — Dependencies
+# Python 3.10+ is required.
+#
+# ════════════════════════════════════════
+# Install: pip install -r requirements.txt
+# ════════════════════════════════════════
+#
+# ── Scraper (Scrapling-based job board scraping) ──
+scrapling[all]>=0.4
+#
+# ── Indeed Spider (JobSpy) ──
+python-jobspy>=1.1
+#
+# ── AI Email Generation (OpenAI GPT) ──
+openai>=1.0
+#
+# ── Environment / Config ──
+python-dotenv>=1.0
+#
+# ── Standard library modules also used ──
+# smtplib, ssl, email, json, logging, argparse,
+# re, uuid, time, random, socket, pathlib,
+# dataclasses, collections, datetime, os, sys

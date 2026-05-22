@@ -1,0 +1,4 @@
+#!/bin/bash
+cd "C:/Users/dell/Desktop/filter-contact"
+source .venv/Scripts/activate
+python menu.py
